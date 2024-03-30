@@ -1,0 +1,12 @@
+name: test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - django
+  - djangorestframework
+  - pip  # Explicitly list pip here as a dependency
+  - pip:  # This section lists packages to install with pip
+    - django-dotenv
+    - django-extensions
