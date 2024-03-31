@@ -29,7 +29,7 @@ class VariantView(BaseVariantView, ListView):
         context['product'] = True
         context['request'] = ''
         if self.request.GET:
-            context['request'] = self.request.GET.get('title__icontains', '')
+            context['request'] = self.request.GET['title__icontains']
         return context
 
 
