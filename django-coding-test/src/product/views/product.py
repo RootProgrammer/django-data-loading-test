@@ -1,3 +1,4 @@
+# src/product/views/product.py
 from django.views import generic
 
 from product.models import Variant

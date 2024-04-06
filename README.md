@@ -1,6 +1,6 @@
 # django-data-loading-test
 
-## Rules:  
+## Rules
 
 - You have to work in an existing project here [Project](https://drive.google.com/drive/folders/1kguo61I9oviPthmJ1a5DlSS2XcFQiIBW?usp=sharing)
 - There is Two (2) Front-End variant Reactjs and Vuejs. Pick your favorit one.
@@ -11,16 +11,15 @@
 - Solve all the tasks given below. Then submit the GitHub repository URL in the bottom page form.
 - You will have the demo data in `src/django_coding_test.json`. to load the demo data execute this command `python manage.py loaddata django_coding_test.json` after migrate the database
 
+## Project Structure
 
-## Project Structure:
+- The project has been created using `pipenv` . To install it run this command in your terminal/cmd `pip install pipenv`
+**You need to execute `npm run watch` commend from the root directory to generate js, and css files which you will see in static folder under src folder**
+- You will have the JS source code in the `src/template/assets/js` directory
+- The main django project held in the `src` directory
+- All the config files are helds in `root` directory (i.e: Pipenv, package.json, webpack.mix.js)
 
-- The project has been created using pipenv . To install it run this command in your terminal/cmd "pip install pipenv"
-**You need to execute npm run watch commend from the root directory to generate js, and css files which you will see in static folder under src folder
-- You will have the JS source code in the src/template/assets/js directory 
-- The main django project held in the src directory 
-- All the config files are helds in root directory (i.e: Pipenv, package.json, webpack.mix.js)
-
-## Tasks:  
+## Tasks
 
 ### Migrate the database
 
@@ -37,7 +36,7 @@
 
 - Make a product filter with product title, product variant, price range and date. [Check](https://prntscr.com/u946mf)                            (5)
 - Make sure the product variant data show dynamically and group by product variant table’s variant column [same as](https://prntscr.com/u947ex)    (2)
- 
+
 #### Create Product:  5
 
 - (Click on Product and then Create Product from Left sidebar) this page has been designed  with vuejs and reactjs you will find the code in the directory: `src/template/assets/js/components/CreateProduct.vue?js` (based on which version you downloaded).  
@@ -46,6 +45,6 @@
   
 #### Edit Product: 10  
 
-- Data should be loaded as same as given data in the edit product page. And it can be updated 
+- Data should be loaded as same as given data in the edit product page. And it can be updated
 
 ---
